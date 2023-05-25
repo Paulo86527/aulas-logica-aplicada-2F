@@ -8,6 +8,7 @@ public class Main {
 
         adao = new Pessoa();
         Pessoa eva = new Pessoa();
+
         //Definiçao do formato
         adao.nome = "Adao";
         adao.sobrenome = "Silva";
@@ -15,9 +16,22 @@ public class Main {
         eva.nome = "Eva";
         eva.sobrenome = "Silva";
 
-        //adicionar comprtamento
+        //adicionar comportamento
         adao.falar();
         eva.falar();
+
+        //criar mais objetos
+        Pessoa qualquer = new Pessoa();
+        //declarar objeto
+        Pessoa rainha;
+        // instanciaçao do objeto
+        rainha = new Pessoa();
+        // Definindo forma da pessoa
+        rainha.nome = "tina";
+        rainha.sobrenome = "tunner";
+        // definiçao comportamento
+        System.out.println(rainha.falar("alto"));
+
 
     }
 

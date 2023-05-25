@@ -31,6 +31,7 @@ public class Main {
         rainha.sobrenome = "tunner";
         // definiçao comportamento
         System.out.println(rainha.falar("alto"));
+        rainha.comer();
 
 
     }
